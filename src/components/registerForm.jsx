@@ -11,7 +11,7 @@ const Register = () => {
       <div className="row" id="wrapper">
         <div className="col"></div>
         <div className="col-5">
-          <div>
+          <div id="logo-wrapper">
             <img src={logo} className="ins-logo" alt="logo" />
           </div>
           <div>
