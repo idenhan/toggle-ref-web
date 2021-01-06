@@ -1,0 +1,23 @@
+#price-wrapper {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+#price-wrapper-price {
+  color: #ff6f64;
+}
+
+#price-btn {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 25px;
+  background-color: rgba(116, 116, 32, 0.08);
+  color: grey;
+  border: none;
+}
+
+#price-btn:hover {
+  cursor: pointer;
+  background-color: #ff6f64;
+  color: white;
+}

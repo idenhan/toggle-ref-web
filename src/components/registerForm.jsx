@@ -1,6 +1,8 @@
 import logo from "../assets/logo-insurance.svg";
 import view from "../assets/views-categories-label.svg";
 import "./registerForm.css";
+import Price from "./price";
+import Detail from "./detail";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Register = () => {
@@ -194,6 +196,8 @@ const Register = () => {
               </div>
             </div>
           </div>
+          <Price />
+          <Detail />
         </div>
         <div className="col"></div>
       </div>

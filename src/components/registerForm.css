@@ -22,16 +22,16 @@
 
 #ins-form-category {
   font-weight: bold;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 #bar {
   color: #ff6f64;
   margin-right: 0.2rem;
   font-size: 0.9rem;
-  
 }
 
 #category {
   font-size: 0.8rem;
-  
 }
