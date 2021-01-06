@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>08C8BBB7-FE02-4004-B9F4-271D683D0F79</title>
+    <defs>
+        <filter x="-6.2%" y="-23.8%" width="112.5%" height="147.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC-메인카드-CM01700006" transform="translate(-841.000000, -1517.000000)" fill="#62676A" fill-rule="nonzero">
+            <g id="자세히보기" transform="translate(312.000000, 1467.000000)">
+                <g id="Group-2" filter="url(#filter-1)" transform="translate(6.000000, 34.000000)">
+                    <g id="Group" transform="translate(27.000000, 16.000000)">
+                        <g id="Controls/Arrows/Down" transform="translate(496.000000, 0.000000)">
+                            <path d="M5.57006369,14 C5.86305732,14 6.09872611,13.8956522 6.30254777,13.6869565 L11.0987261,8.9 C11.366242,8.61956522 11.4936306,8.34565217 11.5,8 C11.5,7.66086957 11.3726115,7.37391304 11.0987261,7.1 L6.30254777,2.30652174 C6.09872611,2.10434783 5.8566879,2 5.57006369,2 C4.97770701,2 4.5,2.4826087 4.5,3.0826087 C4.5,3.3826087 4.62101911,3.65652174 4.84394904,3.88478261 L8.99681529,8.00652174 L4.84394904,12.1152174 C4.62101911,12.3434783 4.5,12.6173913 4.5,12.9173913 C4.5,13.5108696 4.97770701,14 5.57006369,14 Z" id="

@@ -20,7 +20,7 @@ const Register = () => {
           </div>
           <div id="ins-form">
             <div className="row">
-              <div className="col">a</div>
+              <div className="col"></div>
               <div className="col-8">
                 <div id="ins-form-category">
                   <span id="bar">|</span>
@@ -171,7 +171,7 @@ const Register = () => {
                   />
                 </div>
               </div>
-              <div className="col">a</div>
+              <div className="col"></div>
             </div>
           </div>
           <div id="ins-form-category">
