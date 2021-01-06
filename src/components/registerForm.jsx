@@ -33,6 +33,7 @@ const Register = () => {
                   <input
                     type="text"
                     class="form-control"
+                    id="form-bar"
                     placeholder="보험 시작일"
                     aria-label="보험 시작일"
                     aria-describedby="basic-addon1"
@@ -61,12 +62,6 @@ const Register = () => {
                     aria-label="주택종류를 선택해 주세요."
                     aria-describedby="basic-addon1"
                   />
-                  {/* <select class="form-select" id="inputGroupSelect01">
-                    <option selected>주택종류를 선택해 주세요.</option>
-                    <option value="1">빌라</option>
-                    <option value="2">아파트</option>
-                    <option value="3">단독주택</option>
-                  </select> */}
                 </div>
                 <label for="basic-url" class="form-label">
                   화재보험(건물) 가입금액
@@ -79,12 +74,6 @@ const Register = () => {
                     aria-label="화재보험(건물)"
                     aria-describedby="basic-addon1"
                   />
-                  {/* <select class="form-select" id="inputGroupSelect01">
-                    <option selected>화재보험(건물)</option>
-                    <option value="1">서울에서</option>
-                    <option value="2">집을</option>
-                    <option value="3">어케사냐</option>
-                  </select> */}
                 </div>
                 <label for="basic-url" class="form-label">
                   화재보험(가재도구) 가입금액
@@ -97,12 +86,6 @@ const Register = () => {
                     aria-label="화재보험(가재도구)"
                     aria-describedby="basic-addon1"
                   />
-                  {/* <select class="form-select" id="inputGroupSelect01">
-                    <option selected>화재보험(가재도구)</option>
-                    <option value="1">서울에서</option>
-                    <option value="2">집을</option>
-                    <option value="3">어케사냐</option>
-                  </select> */}
                 </div>
                 <label for="basic-url" class="form-label">
                   주소
@@ -127,13 +110,6 @@ const Register = () => {
                     aria-label="면적을 알려주세요."
                     aria-describedby="basic-addon1"
                   />
-                  {/* <select class="form-select" id="inputGroupSelect01">
-                    <option selected>면적을 알려주세요.</option>
-                    <option value="1">20평 이하</option>
-                    <option value="2">40평 이하</option>
-                    <option value="3">80평 이하</option>
-                    <option value="3">100평 이상</option>
-                  </select> */}
                 </div>
                 <div id="ins-form-category">
                   <span id="bar">|</span>
@@ -180,19 +156,31 @@ const Register = () => {
           </div>
           <div>
             <div className="row">
-              <div className="col">
-                <div className="ml-3 mb-2">화재/폭발/파열(건물)</div>
-                <div className="ml-3 mb-2">화재/폭발/파열(가재)</div>
-                <div className="ml-3 mb-2">배상책임</div>
-                <div className="ml-3 mb-2">
+              <div className="col" id="ins-form-category-text-left">
+                <div className="ml-3 mb-4" id="ins-text">
+                  화재/폭발/파열(건물)
+                </div>
+                <div className="ml-3 mb-4" id="ins-text">
+                  화재/폭발/파열(가재)
+                </div>
+                <div className="ml-3 mb-3" id="ins-text">
+                  배상책임
+                </div>
+                <div className="ml-3 mb-3" id="ins-text">
                   <img src={view} className="view-label" alt="view" />
                 </div>
               </div>
               <div className="col"></div>
               <div className="col" id="ins-des-right">
-                <div className="mb-2">보험료 선택</div>
-                <div className="mb-2">보험료 선택</div>
-                <div className="mb-2">1억원</div>
+                <div className="mb-4" id="ins-text">
+                  보험료 선택
+                </div>
+                <div className="mb-4" id="ins-text">
+                  보험료 선택
+                </div>
+                <div className="mb-3" id="ins-text">
+                  1억원
+                </div>
               </div>
             </div>
           </div>
