@@ -181,15 +181,15 @@ const Register = () => {
           <div>
             <div className="row">
               <div className="col">
-                <div className="mb-2">화재/폭발/파열(건물)</div>
-                <div className="mb-2">화재/폭발/파열(가재)</div>
-                <div className="mb-2">배상책임</div>
-                <div className="mb-2">
+                <div className="ml-3 mb-2">화재/폭발/파열(건물)</div>
+                <div className="ml-3 mb-2">화재/폭발/파열(가재)</div>
+                <div className="ml-3 mb-2">배상책임</div>
+                <div className="ml-3 mb-2">
                   <img src={view} className="view-label" alt="view" />
                 </div>
               </div>
               <div className="col"></div>
-              <div className="col">
+              <div className="col" id="ins-des-right">
                 <div className="mb-2">보험료 선택</div>
                 <div className="mb-2">보험료 선택</div>
                 <div className="mb-2">1억원</div>

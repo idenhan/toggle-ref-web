@@ -7,6 +7,10 @@
   color: #ff6f64;
 }
 
+#price-btn-wrapper {
+  text-align: right;
+}
+
 #price-btn {
   padding-left: 2.5rem;
   padding-right: 2.5rem;

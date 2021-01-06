@@ -1,4 +1,27 @@
 #detail-container {
-  font-size: bold;
+  font-size: 0.8rem;
   margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+#det-form-des {
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+#det-form-bnf {
+  margin: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+#det-form-ess {
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+#arrow-box {
+  text-align: right;
 }

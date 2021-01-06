@@ -1,3 +1,4 @@
 #navbarText {
-  margin-left: 45rem;
+  text-align: right !important;
+  justify-content: right;
 }
