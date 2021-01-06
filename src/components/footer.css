@@ -1,0 +1,36 @@
+#footer {
+  background-color:#313436;
+  color: white;
+}
+
+#footer-left {
+  font-size: 0.8rem;
+  margin-left: 1.3rem;
+}
+
+#policies {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#openplan {
+  margin-bottom: 1rem;
+}
+
+#toggle {
+  margin-bottom: 1rem;
+}
+
+#toggle-cs {
+  margin-bottom: 2rem;
+}
+
+#copyright {
+  margin-bottom: 2.5rem;
+  color: grey;
+}
+
+#policies-text {
+  margin-right: 1.5rem;
+}
