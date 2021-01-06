@@ -19,3 +19,19 @@
 #ins-form {
   border-style: solid;
 }
+
+#ins-form-category {
+  font-weight: bold;
+}
+
+#bar {
+  color: #ff6f64;
+  margin-right: 0.2rem;
+  font-size: 0.9rem;
+  
+}
+
+#category {
+  font-size: 0.8rem;
+  
+}
