@@ -1,0 +1,21 @@
+#nav-wrapper {
+  margin: 1.5rem;
+}
+
+#nav-text-wrapper {
+  color: grey;
+}
+
+#nav-text:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#nav-text {
+  margin-right: 2.3rem;
+}
+
+#nav-text-inside-wrapper {
+  border-bottom: 3px solid lightgrey;
+  padding-bottom: 0.4rem;
+}

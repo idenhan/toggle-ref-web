@@ -1,11 +1,12 @@
 import Navbar from "./components/navbar";
 import Register from "./components/registerForm";
 import Footer from "./components/footer";
+import Navbar2 from "./components/navbar2";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar2 />
       <Register />
       <Footer />
     </div>
