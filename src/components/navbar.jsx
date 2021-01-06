@@ -1,4 +1,5 @@
 import logo from "../assets/logo.svg";
+import "./navbar.css";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Navbar = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-end">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
                 보험찾기
